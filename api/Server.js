@@ -19,6 +19,7 @@ app.get('/', function (req, res){
 
 app.use("/login", require('./Login'));
 app.use("/logout", require('./Logout'));
+app.use("/signin", require('./Signin'));
 
 
 module.exports = app;
